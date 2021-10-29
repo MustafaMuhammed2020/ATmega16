@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "7_seg_with_timer1", "7_seg_with_timer1\7_seg_with_timer1.cproj", "{D4720E3C-06CE-42B5-AF7F-11FC40A70742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4720E3C-06CE-42B5-AF7F-11FC40A70742}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D4720E3C-06CE-42B5-AF7F-11FC40A70742}.Debug|AVR.Build.0 = Debug|AVR
+		{D4720E3C-06CE-42B5-AF7F-11FC40A70742}.Release|AVR.ActiveCfg = Release|AVR
+		{D4720E3C-06CE-42B5-AF7F-11FC40A70742}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

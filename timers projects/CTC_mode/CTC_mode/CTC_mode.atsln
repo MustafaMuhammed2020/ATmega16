@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CTC_mode", "CTC_mode\CTC_mode.cproj", "{97238BEA-4774-4177-BC4D-022EDEB2A02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97238BEA-4774-4177-BC4D-022EDEB2A02A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{97238BEA-4774-4177-BC4D-022EDEB2A02A}.Debug|AVR.Build.0 = Debug|AVR
+		{97238BEA-4774-4177-BC4D-022EDEB2A02A}.Release|AVR.ActiveCfg = Release|AVR
+		{97238BEA-4774-4177-BC4D-022EDEB2A02A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

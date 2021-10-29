@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "timer0", "timer0\timer0.cproj", "{E195D773-8A6A-4959-B596-B80C60929D9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E195D773-8A6A-4959-B596-B80C60929D9A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E195D773-8A6A-4959-B596-B80C60929D9A}.Debug|AVR.Build.0 = Debug|AVR
+		{E195D773-8A6A-4959-B596-B80C60929D9A}.Release|AVR.ActiveCfg = Release|AVR
+		{E195D773-8A6A-4959-B596-B80C60929D9A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
