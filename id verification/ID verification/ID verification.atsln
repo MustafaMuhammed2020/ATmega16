@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ID verification", "ID verification\ID verification.cproj", "{BDFAB09D-87E2-4AD2-A374-C8605077C749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDFAB09D-87E2-4AD2-A374-C8605077C749}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BDFAB09D-87E2-4AD2-A374-C8605077C749}.Debug|AVR.Build.0 = Debug|AVR
+		{BDFAB09D-87E2-4AD2-A374-C8605077C749}.Release|AVR.ActiveCfg = Release|AVR
+		{BDFAB09D-87E2-4AD2-A374-C8605077C749}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

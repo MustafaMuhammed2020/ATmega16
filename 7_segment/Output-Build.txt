@@ -1,0 +1,37 @@
+﻿------ Build started: Project: AVRGCC1, Configuration: Debug AVR ------
+Build started.
+Project "AVRGCC1.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\AVR Studio 5.1\Vs\Compiler.targets" from project "C:\Users\click\Desktop\AVR_projects\AVRGCC1\AVRGCC1\AVRGCC1.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		C:\Program Files (x86)\Atmel\AVR Studio 5.1\make\make.exe all 
+AVRGCC1.c
+		Invoking: AVR/GNU C Compiler
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-gcc.exe"  -funsigned-char -funsigned-bitfields -O1 -fpack-struct -fshort-enums -g2 -Wall -c -std=gnu99 -MD -MP -MF "AVRGCC1.d" -MT"AVRGCC1.d"  -mmcu=atmega16  -o"AVRGCC1.o" ".././AVRGCC1.c" 
+		In file included from .././AVRGCC1.c:9:0:
+c:\program files (x86)\atmel\avr studio 5.1\extensions\atmel\avrgcc\3.3.1.27\avrtoolchain\bin\../lib/gcc/avr/4.5.1/../../../../avr/include/util/delay.h(89,3): #warning "F_CPU not defined for <util/delay.h>"
+		Finished building: .././AVRGCC1.c
+		Building target: AVRGCC1.elf
+		Invoking: AVR/GNU C Linker
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-gcc.exe" -o AVRGCC1.elf  AVRGCC1.o   -Wl,-Map="AVRGCC1.map" -Wl,-lm   -mmcu=atmega16  
+		Finished building target: AVRGCC1.elf
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature  "AVRGCC1.elf" "AVRGCC1.hex"
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "AVRGCC1.elf" "AVRGCC1.eep" || exit 0
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-objdump.exe" -h -S "AVRGCC1.elf" > "AVRGCC1.lss"
+		"C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-size.exe" -C --mcu=atmega16  "AVRGCC1.elf"
+		AVR Memory Usage
+		----------------
+		Device: atmega16
+		Program:     184 bytes (1.1% Full)
+		(.text + .data + .bootloader)
+		Data:          0 bytes (0.0% Full)
+		(.data + .bss + .noinit)
+	Done executing task "RunCompilerTask".
+Done building target "CoreBuild" in project "AVRGCC1.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\AVR Studio 5.1\Vs\Avr.common.targets" from project "C:\Users\click\Desktop\AVR_projects\AVRGCC1\AVRGCC1\AVRGCC1.cproj" (entry point):
+Done building target "Build" in project "AVRGCC1.cproj".
+Done building project "AVRGCC1.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
